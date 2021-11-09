@@ -106,7 +106,7 @@ public class Sport2SocialNetworkUserImpl<U extends User> extends SocialNetworkUs
      * @return the set of individual sport this user practices/follows
      */
     
-    public Set<Sport> GetIndividualSports(){
+    public Set<Sport> getIndividualSports(){
     	Set<Sport> individuals = new HashSet<>();
     	for(Sport i : this.sports) {
     		if(i.isIndividualSport()) {
